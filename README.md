@@ -9,4 +9,7 @@
 - dotnet run (or) dotnet watch run 
 
 
+## Notes
+ORM - Entity Framework
+
 
