@@ -19,6 +19,8 @@
 ORM - Entity Framework
 
 ## Entity Framework Commands
-dotnet tool list -g
-
+To list all the tools - `dotnet tool list -g` 
+To add migrations - `dotnet ef migrations add InitialCreate -p Infrastructure/ -s API/ -o Data/Migrations`
+To drop the database - `dotnet ef database drop -p Infrastructure/ -s API/`
+To remove the migrations - `dotnet ef migrations remove -p Infrastructure/ -s API/`
 
