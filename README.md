@@ -29,7 +29,7 @@ ORM - Entity Framework
 
 
 ## Generic Repository
-- Idea - Same repository for all entities instead of using many
+- Intuition - Same repository for all entities instead of using many
 - Cons - Cannot implement specific functionalities (like including different entities in the resultset of a given entity)
 
 ## Specification Design Pattern
@@ -38,3 +38,6 @@ ORM - Entity Framework
 - This pattern allows us to seperate the search criteria from the object that performs the search
 - It is used upon Generic repository to reap the benefits of it
 
+## Automapper 
+- Used to map ORM objects to DTO ( Data transfer objects) automatically
+- We should add automapper -> Nuget package as a service in startup.cs file
