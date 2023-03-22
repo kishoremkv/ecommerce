@@ -7,11 +7,6 @@ namespace API.Controllers
     [ApiController]
     public class BaseApiController : ControllerBase
     {
-        [HttpGet]
-        public async Task<IActionResult> Get()
-        {
-            
-            return Ok();
-        }
+       
     }
 }
