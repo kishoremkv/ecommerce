@@ -41,3 +41,10 @@ ORM - Entity Framework
 ## Automapper 
 - Used to map ORM objects to DTO ( Data transfer objects) automatically
 - We should add automapper -> Nuget package as a service in startup.cs file
+
+## Pagination
+
+
+## CORS Header
+It is required inorder to not allow any cyber attacks to take place while loading an address from the browser. 
+API has to send the CORS headers to the browser inorder to permit the information. 
